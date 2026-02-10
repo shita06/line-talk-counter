@@ -19,7 +19,7 @@ if uploaded_file is not None:
 
     member_counts = collections.Counter()
     # 通話系キーワード（Unknownのログも考慮）
-    exclude_keywords = ["通話が開始", "通話が終了", "通話時間", "不在着信", "グループ通話"]
+    exclude_keywords = ["通話"]
     
     current_date = None
     # 日付形式「2025/1/1(水)」や「2025/03/31(月)」にマッチするパターン
