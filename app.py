@@ -3,7 +3,7 @@ import collections
 from datetime import datetime
 import re
 
-st.title("LINEトーク発言数カウンター (2025対応版)")
+st.title("LINEトーク発言数カウンター")
 
 # 1. 期間指定のUI
 st.sidebar.header("集計期間の設定")
