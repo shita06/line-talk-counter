@@ -18,7 +18,7 @@ if uploaded_file is not None:
     lines = content.splitlines()
 
     member_counts = collections.Counter()
-    exclude_keywords = ["通話が開始", "通話が終了", "通話時間", "不在着信", "グループ通話"]
+    exclude_keywords = ["通話"]
     
     current_date = None
     # 日付形式「2025.04.29 火曜日」や「2025/04/29(火)」の両方に対応
